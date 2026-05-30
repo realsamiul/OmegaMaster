@@ -11,9 +11,5 @@
         }
       ]
     }
-  ],
-  "rewrites": [
-    { "source": "/space", "destination": "/space.html" },
-    { "source": "/clearspace", "destination": "/index.html" }
   ]
 }

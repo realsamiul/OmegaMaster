@@ -61,7 +61,7 @@ class OmegaExternal extends HTMLElement {
                     document.dispatchEvent(new CustomEvent('external-dom-loaded'));
                 })
                 .catch(error => {
-                    console.error('Error fetching JSON:', error);
+                    console.error('Error fetching JSON:', error); document.dispatchEvent(new CustomEvent('external-dom-loaded'));
                 });
         }
 

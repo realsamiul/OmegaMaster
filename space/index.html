@@ -406,6 +406,40 @@
 	<!-- End Google Tag Manager (noscript) -->
 
     <script src="/media/external/omega-external.js"></script>
+<!-- Simple Bottom Navbar -->
+<style>
+  .omega-bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 0;
+    z-index: 99999;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .omega-bottom-nav a {
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: color 0.3s;
+  }
+  .omega-bottom-nav a:hover {
+    color: #c40d2f;
+  }
+</style>
+<div class="omega-bottom-nav">
+  <a href="/">Clearspace</a>
+  <a href="/space">Space Sustainability</a>
+</div>
+
 </body>
 
 </html>
